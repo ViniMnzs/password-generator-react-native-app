@@ -5,7 +5,7 @@ import Clipboard from 'expo-clipboard';
 
 export default function App() {
   let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-  const [password, setPassword] = useState('123456789');
+  const [password, setPassword] = useState('');
   const [size, setSize] = useState(5);
 
   function generatePass(){
